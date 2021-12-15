@@ -37,3 +37,15 @@ nav {
     width: 65%;
     border-bottom: 1px solid rgba(0,0,0,0.125);
   }
+
+  /* bootstrap button's css */
+
+  #bsbtn{
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  #sshead{
+    text-align: center;
+  }

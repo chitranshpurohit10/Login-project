@@ -11,6 +11,8 @@ router.get("/logout", authController.logout);
 
 router.post('/edit', authController.edit);
 
+// router.get("/additionalbs",authController.additionalbs);
+
 module.exports = router;
 
 

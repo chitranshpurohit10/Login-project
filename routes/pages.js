@@ -40,6 +40,11 @@ router.get("/edit",authController.isLoggedIn,(req,res)=>{
     }
 });
 
+//added for additional bootstrap
+router.get("/additionalbs",(req,res)=>{
+    res.render("additionalbs");
+});
+
 // router.get("/edit",(req,res)=>{
 //     res.render("edit");
 // });
